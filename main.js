@@ -1,5 +1,6 @@
 import images from "./img.js";
 
+
 let slideIndex = 0;
 showSlides();
 
