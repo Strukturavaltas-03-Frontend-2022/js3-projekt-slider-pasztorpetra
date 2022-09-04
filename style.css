@@ -1,3 +1,8 @@
+:root {
+  --slider-width: 80%;
+  --slider-height: 400px;
+}
+
 * {box-sizing:border-box}
 
 .slider {
@@ -6,7 +11,7 @@
   margin: auto;
 }
 
-.mySlides {
+/* .mySlides {
   display: none;
 }
 
@@ -27,7 +32,7 @@ img {
   font-size: 16px;
   transition: 0.8s ease;
   border-radius: 0 3px 3px 0;
-  /*user-select: none;*/
+  user-select: none;
 }
 
 .next {
@@ -80,4 +85,4 @@ img {
 @keyframes fade {
   from {opacity: 0.4}
   to {opacity: 1}
-}
+} */
