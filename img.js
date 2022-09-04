@@ -1,4 +1,4 @@
-const gallery = [
+const images = [
   {
     id: 0,
     src: "./img/img1.jpg",
@@ -21,4 +21,4 @@ const gallery = [
   },
 ];
 
-export default gallery;
+export default images;

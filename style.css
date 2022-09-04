@@ -1,17 +1,23 @@
-:root {
-  --slider-width: 80%;
-  --slider-height: 400px;
+* {
+  box-sizing:border-box
 }
 
-* {box-sizing:border-box}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 25vh;
+  width: 100vw;
+}
 
 .slider {
-  max-width: 100%;
   position: relative;
   margin: auto;
+  vertical-align: middle;
 }
 
-/* .mySlides {
+.mySlides {
   display: none;
 }
 
@@ -23,9 +29,8 @@ img {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 60%;
   width: auto;
-  margin-top: -25px;
   padding: 20px;
   color: white;
   font-weight: bold;
@@ -46,7 +51,7 @@ img {
 
 .text {
   color: #f2f2f2;
-  font-size: 14px;
+  font-size: 18px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -59,10 +64,11 @@ img {
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  top: 10px;
+  left: 5px;
 }
 
-.dot {
+.dots {
   cursor: pointer;
   height: 15px;
   width: 15px;
